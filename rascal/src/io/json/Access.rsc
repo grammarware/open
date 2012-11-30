@@ -31,7 +31,17 @@ public JSO gimmeNull(JSO x) = jsnull(); // well, if this is what you are asking.
 str unquote(str s)
 {
 	if (startsWith(s,"\"") && endsWith(s,"\""))
-		return replaceLast(replaceFirst(s,"\"",""),"\"","");
+		return unescape(replaceLast(replaceFirst(s,"\"",""),"\"",""));
 	else
 		return s;
+}
+
+str unescape(str s)
+{
+	repl = ("\\\"":"\"","\\/":"/",
+	"\\u00e4":"\u00e4","\\u00bd":"\u00bd","\\u00e6":"\u00e6","\\u2014":"\u2014",
+	"\\u00e9":"\u00e9","\\u2019":"\u2019","\\u2026":"\u2026","\\u201c":"\u201c","\\u201d":"\u201d");
+	for (smb <- repl)
+		s = replaceAll(s,smb,repl[smb]);
+	return s;
 }
