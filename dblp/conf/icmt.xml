@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dblp>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/GeorgeWS12">
+		<author>Lars George</author>
+		<author>Arif Wider</author>
+		<author>Markus Scheidgen</author>
+		<title>Type-Safe Model Transformation Languages as Internal DSLs in Scala.</title>
+		<pages>160-175</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_11</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#GeorgeWS12</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/Poernomo08">
+		<author>Iman Poernomo</author>
+		<title>Proofs-as-Model-Transformations.</title>
+		<pages>214-228</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_15</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#Poernomo08</url>
+	</inproceedings>
+	<proceedings mdate="2012-05-29" key="conf/icmt/2012">
+		<editor>Zhenjiang Hu</editor>
+		<editor>Juan de Lara</editor>
+		<title>Theory and Practice of Model Transformations - 5th International Conference, ICMT 2012, Prague, Czech Republic, May 28-29, 2012. Proceedings</title>
+		<volume>7307</volume>
+		<year>2012</year>
+		<publisher>Springer</publisher>
+		<series href="db/journals/lncs.html">Lecture Notes in Computer Science</series>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7</ee>
+		<isbn>978-3-642-30475-0</isbn>
+		<booktitle>ICMT</booktitle>
+		<url>db/conf/icmt/icmt2012.html</url>
+	</proceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/EgyedDGLMNR11">
+		<author>Alexander Egyed</author>
+		<author>Andreas Demuth</author>
+		<author>Achraf Ghabi</author>
+		<author>Roberto Erick Lopez-Herrejon</author>
+		<author>Patrick Mäder</author>
+		<author>Alexander Nöhrer</author>
+		<author>Alexander Reder</author>
+		<title>Fine-Tuning Model Transformation: Change Propagation in Context of Consistency, Completeness, and Human Guidance.</title>
+		<pages>1-14</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_1</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#EgyedDGLMNR11</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/RomeikatRMB08">
+		<author>Raphael Romeikat</author>
+		<author>Stephan Roser</author>
+		<author>Pascal Müllender</author>
+		<author>Bernhard Bauer</author>
+		<title>Translation of QVT Relations into QVT Operational Mappings.</title>
+		<pages>137-151</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_10</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#RomeikatRMB08</url>
+	</inproceedings>
+	<inproceedings mdate="2010-09-23" key="conf/icmt/AmstelLB09">
+		<author>Marcel van Amstel</author>
+		<author>Christian F. J. Lange</author>
+		<author>Mark van den Brand</author>
+		<title>Using Metrics for Assessing the Quality of ASF+SDF Model Transformations.</title>
+		<pages>239-248</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_17</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#AmstelLB09</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/TerwilligerCC12">
+		<author>James F. Terwilliger</author>
+		<author>Anthony Cleve</author>
+		<author>Carlo Curino</author>
+		<title>How Clean Is Your Sandbox? - Towards a Unified Theoretical Framework for Incremental Bidirectional Transformations.</title>
+		<pages>1-23</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_1</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#TerwilligerCC12</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/PetterBM09">
+		<author>Andreas Petter</author>
+		<author>Alexander Behring</author>
+		<author>Max Mühlhäuser</author>
+		<title>Solving Constraints in Model Transformations.</title>
+		<pages>132-147</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_10</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#PetterBM09</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/SteelDD11">
+		<author>Jim Steel</author>
+		<author>Keith Duddy</author>
+		<author>Robin Drogemuller</author>
+		<title>A Transformation Workbench for Building Information Models.</title>
+		<pages>93-107</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_7</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#SteelDD11</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/VignagaPB08">
+		<author>Andrés Vignaga</author>
+		<author>Daniel Perovich</author>
+		<author>M. Cecilia Bastarrica</author>
+		<title>Extracting Object Interactions Out of Software Contracts Using Model Transformations.</title>
+		<pages>245-259</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_17</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#VignagaPB08</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/LangerWK10">
+		<author>Philip Langer</author>
+		<author>Manuel Wimmer</author>
+		<author>Gerti Kappel</author>
+		<title>Model-to-Model Transformations By Demonstration.</title>
+		<pages>153-167</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_11</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#LangerWK10</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/BergmannURV11">
+		<author>Gábor Bergmann</author>
+		<author>Zoltán Ujhelyi</author>
+		<author>István Ráth</author>
+		<author>Dániel Varró</author>
+		<title>A Graph Query Language for EMF Models.</title>
+		<pages>167-182</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_12</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#BergmannURV11</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/RoseKPP10">
+		<author>Louis M. Rose</author>
+		<author>Dimitrios S. Kolovos</author>
+		<author>Richard F. Paige</author>
+		<author>Fiona A. C. Polack</author>
+		<title>Model Migration with Epsilon Flock.</title>
+		<pages>184-198</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_13</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#RoseKPP10</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/PachecoC12">
+		<author>Hugo Pacheco</author>
+		<author>Alcino Cunha</author>
+		<title>Multifocal: A Strategic Bidirectional Transformation Language for XML Schemas.</title>
+		<pages>89-104</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_6</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#PachecoC12</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/HettelLR09">
+		<author>Thomas Hettel</author>
+		<author>Michael Lawley</author>
+		<author>Kerry Raymond</author>
+		<title>Towards Model Round-Trip Engineering: An Abductive Approach.</title>
+		<pages>100-115</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_8</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#HettelLR09</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/SyrianiV08">
+		<author>Eugene Syriani</author>
+		<author>Hans Vangheluwe</author>
+		<title>Programmed Graph Rewriting with Time for Simulation-Based Design.</title>
+		<pages>91-106</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_7</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#SyrianiV08</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/Guerra12">
+		<author>Esther Guerra</author>
+		<title>Specification-Driven Test Generation for Model Transformations.</title>
+		<pages>40-55</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_3</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#Guerra12</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/CuadradoGL11">
+		<author>Jesús Sánchez Cuadrado</author>
+		<author>Esther Guerra</author>
+		<author>Juan de Lara</author>
+		<title>Generic Model Transformations: <i>Write Once, Reuse Everywhere</i>.</title>
+		<pages>62-77</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_5</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#CuadradoGL11</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/FabroABJ09">
+		<author>Marcos Didonet Del Fabro</author>
+		<author>Patrick Albert</author>
+		<author>Jean Bézivin</author>
+		<author>Frédéric Jouault</author>
+		<title>Achieving Rule Interoperability Using Chains of Model Transformations.</title>
+		<pages>249-259</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_18</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#FabroABJ09</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/VarroDWS12">
+		<author>Gergely Varró</author>
+		<author>Frederik Deckwerth</author>
+		<author>Martin Wieber</author>
+		<author>Andy Schürr</author>
+		<title>An Algorithm for Generating Model-Sensitive Search Plans for EMF Models.</title>
+		<pages>224-239</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_15</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#VarroDWS12</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/CuadradoM08">
+		<author>Jesús Sánchez Cuadrado</author>
+		<author>Jesús García Molina</author>
+		<title>Approaches for Model Transformation Reuse: Factorization and Composition.</title>
+		<pages>168-182</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_12</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#CuadradoM08</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/Cuadrado12">
+		<author>Jesús Sánchez Cuadrado</author>
+		<title>Towards a Family of Model Transformation Languages.</title>
+		<pages>176-191</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_12</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#Cuadrado12</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/FiorentiniMOP10">
+		<author>Camillo Fiorentini</author>
+		<author>Alberto Momigliano</author>
+		<author>Mario Ornaghi</author>
+		<author>Iman Poernomo</author>
+		<title>A Constructive Approach to Testing Model Transformations.</title>
+		<pages>77-92</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_6</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#FiorentiniMOP10</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/KolovosRMPPF10">
+		<author>Dimitrios S. Kolovos</author>
+		<author>Louis M. Rose</author>
+		<author>Nikolaos Drivalos Matragkas</author>
+		<author>Richard F. Paige</author>
+		<author>Fiona A. C. Polack</author>
+		<author>Kiran Jude Fernandes</author>
+		<title>Constructing and Navigating Non-invasive Model Decorations.</title>
+		<pages>138-152</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_10</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#KolovosRMPPF10</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/CabotCGL08">
+		<author>Jordi Cabot</author>
+		<author>Robert Clarisó</author>
+		<author>Esther Guerra</author>
+		<author>Juan de Lara</author>
+		<title>Analysing Graph Transformation Rules through OCL.</title>
+		<pages>229-244</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_16</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#CabotCGL08</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/LepperT11">
+		<author>Markus Lepper</author>
+		<author>Baltasar Trancón-y-Widemann</author>
+		<title>Optimization of Visitor Performance by Reflection-Based Analysis.</title>
+		<pages>15-30</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_2</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#LepperT11</url>
+	</inproceedings>
+	<proceedings mdate="2010-07-05" key="conf/icmt/2010">
+		<editor>Laurence Tratt</editor>
+		<editor>Martin Gogolla</editor>
+		<title>Theory and Practice of Model Transformations, Third International Conference, ICMT 2010, Malaga, Spain, June 28-July 2, 2010. Proceedings</title>
+		<volume>6142</volume>
+		<year>2010</year>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7</ee>
+		<isbn>978-3-642-13687-0</isbn>
+		<booktitle>ICMT</booktitle>
+		<series href="db/journals/lncs.html">Lecture Notes in Computer Science</series>
+		<publisher>Springer</publisher>
+		<url>db/conf/icmt/icmt2010.html</url>
+	</proceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/TroyaV10">
+		<author>Javier Troya</author>
+		<author>Antonio Vallecillo</author>
+		<title>Towards a Rewriting Logic Semantics for ATL.</title>
+		<pages>230-244</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_16</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#TroyaV10</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/KolovosPP08">
+		<author>Dimitrios S. Kolovos</author>
+		<author>Richard F. Paige</author>
+		<author>Fiona Polack</author>
+		<title>The Epsilon Transformation Language.</title>
+		<pages>46-60</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_4</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#KolovosPP08</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/VignagaJBB09">
+		<author>Andrés Vignaga</author>
+		<author>Frédéric Jouault</author>
+		<author>M. Cecilia Bastarrica</author>
+		<author>Hugo Bruneliere</author>
+		<title>Typing in Model Management.</title>
+		<pages>197-212</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_14</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#VignagaJBB09</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/BosS12">
+		<author>Jeroen van den Bos</author>
+		<author>Tijs van der Storm</author>
+		<title>Domain-Specific Optimization in Digital Forensics.</title>
+		<pages>121-136</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_8</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#BosS12</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/Kurtev08">
+		<author>Ivan Kurtev</author>
+		<title>Application of Reflection in Model Transformation Languages.</title>
+		<pages>199-213</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_14</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#Kurtev08</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/CabotCGL10">
+		<author>Jordi Cabot</author>
+		<author>Robert Clarisó</author>
+		<author>Esther Guerra</author>
+		<author>Juan de Lara</author>
+		<title>Synthesis of OCL Pre-conditions for Graph Transformation Rules.</title>
+		<pages>45-60</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_4</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#CabotCGL10</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/HettelLR08">
+		<author>Thomas Hettel</author>
+		<author>Michael Lawley</author>
+		<author>Kerry Raymond</author>
+		<title>Model Synchronisation: Definitions for Round-Trip Engineering.</title>
+		<pages>31-45</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_3</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#HettelLR08</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/VaraVBM09">
+		<author>Juan M. Vara</author>
+		<author>Belén Vela</author>
+		<author>Verónica Andrea Bollati</author>
+		<author>Esperanza Marcos</author>
+		<title>Supporting Model-Driven Development of Object-Relational Database Schemas: A Case Study.</title>
+		<pages>181-196</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_13</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#VaraVBM09</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/SeehusenS11">
+		<author>Fredrik Seehusen</author>
+		<author>Ketil Stølen</author>
+		<title>An Evaluation of the Graphical Modeling Framework (GMF) Based on the Development of the CORAS Tool.</title>
+		<pages>152-166</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_11</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#SeehusenS11</url>
+	</inproceedings>
+	<inproceedings mdate="2012-10-30" key="conf/icmt/WimmerKKRSSKPLSW11">
+		<author>Manuel Wimmer</author>
+		<author>Gerti Kappel</author>
+		<author>Angelika Kusel</author>
+		<author>Werner Retschitzegger</author>
+		<author>Johannes Schönböck</author>
+		<author>Wieland Schwinger</author>
+		<author>Dimitris S. Kolovos</author>
+		<author>Richard F. Paige</author>
+		<author>Marius Lauder</author>
+		<author>Andy Schürr</author>
+		<author>Dennis Wagelaar</author>
+		<title>A Comparison of Rule Inheritance in Model-to-Model Transformation Languages.</title>
+		<pages>31-46</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_3</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#WimmerKKRSSKPLSW11</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/TisiCJ10">
+		<author>Massimo Tisi</author>
+		<author>Jordi Cabot</author>
+		<author>Frédéric Jouault</author>
+		<title>Improving Higher-Order Transformations Support in ATL.</title>
+		<pages>215-229</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_15</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#TisiCJ10</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/BauerK11">
+		<author>Eduard Bauer</author>
+		<author>Jochen Malte Küster</author>
+		<title>Combining Specification-Based and Code-Based Coverage for Model Transformation Chains.</title>
+		<pages>78-92</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_6</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#BauerK11</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/GronmoKM09">
+		<author>Roy Grønmo</author>
+		<author>Stein Krogdahl</author>
+		<author>Birger Møller-Pedersen</author>
+		<title>A Collection Operator for Graph Transformation.</title>
+		<pages>67-82</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_6</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#GronmoKM09</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/BrambillaCT10">
+		<author>Marco Brambilla</author>
+		<author>Stefano Ceri</author>
+		<author>Massimo Tisi</author>
+		<title>Search Computing: A Model-Driven Perspective.</title>
+		<pages>1-15</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_1</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#BrambillaCT10</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/JouaultT10">
+		<author>Frédéric Jouault</author>
+		<author>Massimo Tisi</author>
+		<title>Towards Incremental Execution of ATL Transformations.</title>
+		<pages>123-137</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_9</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#JouaultT10</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/Perez-CastilloGP10">
+		<author>Ricardo Pérez-Castillo</author>
+		<author>Ignacio García Rodríguez de Guzmán</author>
+		<author>Mario Piattini</author>
+		<title>Implementing Business Process Recovery Patterns through QVT Transformations.</title>
+		<pages>168-183</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_12</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#Perez-CastilloGP10</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/XiongSHT09">
+		<author>Yingfei Xiong</author>
+		<author>Hui Song</author>
+		<author>Zhenjiang Hu</author>
+		<author>Masato Takeichi</author>
+		<title>Supporting Parallel Updates with Bidirectional Model Transformations.</title>
+		<pages>213-228</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_15</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#XiongSHT09</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/VallecilloG12">
+		<author>Antonio Vallecillo</author>
+		<author>Martin Gogolla</author>
+		<title>Typing Model Transformations Using Tracts.</title>
+		<pages>56-71</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_4</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#VallecilloG12</url>
+	</inproceedings>
+	<proceedings mdate="2011-07-05" key="conf/icmt/2011">
+		<editor>Jordi Cabot</editor>
+		<editor>Eelco Visser</editor>
+		<title>Theory and Practice of Model Transformations - 4th International Conference, ICMT 2011, Zurich, Switzerland, June 27-28, 2011. Proceedings</title>
+		<volume>6707</volume>
+		<year>2011</year>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6</ee>
+		<isbn>978-3-642-21731-9</isbn>
+		<booktitle>ICMT</booktitle>
+		<series href="db/journals/lncs.html">Lecture Notes in Computer Science</series>
+		<publisher>Springer</publisher>
+		<url>db/conf/icmt/icmt2011.html</url>
+	</proceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/BergmannHRV09">
+		<author>Gábor Bergmann</author>
+		<author>Ákos Horváth</author>
+		<author>István Ráth</author>
+		<author>Dániel Varró</author>
+		<title>Efficient Model Transformations by Combining Pattern Matching Strategies.</title>
+		<pages>20-34</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_3</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#BergmannHRV09</url>
+	</inproceedings>
+	<proceedings mdate="2009-08-21" key="conf/icmt/2009">
+		<editor>Richard F. Paige</editor>
+		<title>Theory and Practice of Model Transformations, Second International Conference, ICMT 2009, Zurich, Switzerland, June 29-30, 2009. Proceedings</title>
+		<volume>5563</volume>
+		<year>2009</year>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5</ee>
+		<isbn>978-3-642-02407-8</isbn>
+		<booktitle>ICMT</booktitle>
+		<series href="db/journals/lncs.html">Lecture Notes in Computer Science</series>
+		<publisher>Springer</publisher>
+		<url>db/conf/icmt/icmt2009.html</url>
+	</proceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/FreemanBL08">
+		<author>Greg Freeman</author>
+		<author>Don S. Batory</author>
+		<author>R. Greg Lavender</author>
+		<title>Lifting Transformational Models of Product Lines: A Case Study.</title>
+		<pages>16-30</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_2</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#FreemanBL08</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/ApelJTK09">
+		<author>Sven Apel</author>
+		<author>Florian Janda</author>
+		<author>Salvador Trujillo</author>
+		<author>Christian Kästner</author>
+		<title>Model Superimposition in Software Product Lines.</title>
+		<pages>4-19</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_2</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#ApelJTK09</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/HornE11">
+		<author>Tassilo Horn</author>
+		<author>Jürgen Ebert</author>
+		<title>The GReTL Transformation Language.</title>
+		<pages>183-197</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_13</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#HornE11</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/AndovaBE12">
+		<author>Suzana Andova</author>
+		<author>Mark G. J. van den Brand</author>
+		<author>Luc Engelen</author>
+		<title>Reusable and Correct Endogenous Model Transformations.</title>
+		<pages>72-88</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_5</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#AndovaBE12</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/LanoR11">
+		<author>Kevin Lano</author>
+		<author>Shekoufeh Kolahdouz Rahimi</author>
+		<title>Model-Driven Development of Model Transformations.</title>
+		<pages>47-61</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_4</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#LanoR11</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/AzanzaBDT10">
+		<author>Maider Azanza</author>
+		<author>Don S. Batory</author>
+		<author>Oscar Díaz</author>
+		<author>Salvador Trujillo</author>
+		<title>Domain-Specific Composition of Model Deltas.</title>
+		<pages>16-30</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_2</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#AzanzaBDT10</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/GronmoM10">
+		<author>Roy Grønmo</author>
+		<author>Birger Møller-Pedersen</author>
+		<title>From Sequence Diagrams to State Machines by Graph Transformation.</title>
+		<pages>93-107</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_7</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#GronmoM10</url>
+	</inproceedings>
+	<proceedings mdate="2008-08-14" key="conf/icmt/2008">
+		<editor>Antonio Vallecillo</editor>
+		<editor>Jeff Gray</editor>
+		<editor>Alfonso Pierantonio</editor>
+		<title>Theory and Practice of Model Transformations, First International Conference, ICMT 2008, Zürich, Switzerland, July 1-2, 2008, Proceedings</title>
+		<volume>5063</volume>
+		<year>2008</year>
+		<isbn>978-3-540-69926-2</isbn>
+		<booktitle>ICMT</booktitle>
+		<series href="db/journals/lncs.html">Lecture Notes in Computer Science</series>
+		<publisher>Springer</publisher>
+		<url>db/conf/icmt/icmt2008.html</url>
+	</proceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/AmstelBPV08">
+		<author>Marcel van Amstel</author>
+		<author>Mark G. J. van den Brand</author>
+		<author>Zvezdan Protic</author>
+		<author>Tom Verhoeff</author>
+		<title>Transforming Process Algebra Models into UML State Machines: Bridging a Semantic Gap?.</title>
+		<pages>61-75</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_5</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#AmstelBPV08</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/Kosiuczenko12">
+		<author>Piotr Kosiuczenko</author>
+		<title>The Impact of Class Model Redesign on State Machines.</title>
+		<pages>264-279</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_18</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#Kosiuczenko12</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/SiikarlaLSS08">
+		<author>Mika Siikarla</author>
+		<author>Markku Laitkorpi</author>
+		<author>Petri Selonen</author>
+		<author>Tarja Systä</author>
+		<title>Transformations Have to be Developed ReST Assured.</title>
+		<pages>1-15</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_1</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#SiikarlaLSS08</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/RathBOV08">
+		<author>István Ráth</author>
+		<author>Gábor Bergmann</author>
+		<author>András Ökrös</author>
+		<author>Dániel Varró</author>
+		<title>Live Model Transformations Driven by Incremental Pattern Matching.</title>
+		<pages>107-121</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_8</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#RathBOV08</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/WimmerKKRSS12">
+		<author>Manuel Wimmer</author>
+		<author>Gerti Kappel</author>
+		<author>Angelika Kusel</author>
+		<author>Werner Retschitzegger</author>
+		<author>Johannes Schönböck</author>
+		<author>Wieland Schwinger</author>
+		<title>Fact or Fiction - Reuse in Rule-Based Model-to-Model Transformation Languages.</title>
+		<pages>280-295</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_19</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#WimmerKKRSS12</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/Garcia-MagarinoGF09">
+		<author>Iván García-Magariño</author>
+		<author>Jorge J. Gómez-Sanz</author>
+		<author>Rubén Fuentes-Fernández</author>
+		<title>Model Transformation By-Example: An Algorithm for Generating Many-to-Many Transformation Rules in Several Model Transformation Languages.</title>
+		<pages>52-66</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_5</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#Garcia-MagarinoGF09</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/AmstelB11">
+		<author>Marcel van Amstel</author>
+		<author>Mark G. J. van den Brand</author>
+		<title>Model Transformation Analysis: Staying Ahead of the Maintenance Nightmare.</title>
+		<pages>108-122</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_8</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#AmstelB11</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/BeckerLDBG11">
+		<author>Basil Becker</author>
+		<author>Leen Lambers</author>
+		<author>Johannes Dyck</author>
+		<author>Stefanie Birth</author>
+		<author>Holger Giese</author>
+		<title>Iterative Development of Consistency-Preserving Rule-Based Refactorings.</title>
+		<pages>123-137</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_9</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#BeckerLDBG11</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/SyrianiKV10">
+		<author>Eugene Syriani</author>
+		<author>Jörg Kienzle</author>
+		<author>Hans Vangheluwe</author>
+		<title>Exceptional Transformations.</title>
+		<pages>199-214</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_14</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#SyrianiKV10</url>
+	</inproceedings>
+	<inproceedings mdate="2012-09-05" key="conf/icmt/SunGWGW11">
+		<author>Yu Sun 0002</author>
+		<author>Jeff Gray</author>
+		<author>Christoph Wienands</author>
+		<author>Michael Golm</author>
+		<author>Jules White</author>
+		<title>A Demonstration-based Approach to Support Live Transformations in a Model Editor.</title>
+		<pages>213-227</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_15</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#SunGWGW11</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/WongG08">
+		<author>Peter Y. H. Wong</author>
+		<author>Jeremy Gibbons</author>
+		<title>On Specifying and Visualising Long-Running Empirical Studies.</title>
+		<pages>76-90</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_6</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#WongG08</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/CzarneckiFHLST09">
+		<author>Krzysztof Czarnecki</author>
+		<author>J. Nathan Foster</author>
+		<author>Zhenjiang Hu</author>
+		<author>Ralf Lämmel</author>
+		<author>Andy Schürr</author>
+		<author>James F. Terwilliger</author>
+		<title>Bidirectional Transformations: A Cross-Discipline Perspective.</title>
+		<pages>260-283</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_19</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#CzarneckiFHLST09</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/Fernandez-RoperoPWP12">
+		<author>María Fernández-Ropero</author>
+		<author>Ricardo Pérez-Castillo</author>
+		<author>Barbara Weber</author>
+		<author>Mario Piattini</author>
+		<title>Empirical Assessment of Business Model Transformations Based on Model Simulation.</title>
+		<pages>137-151</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_9</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#Fernandez-RoperoPWP12</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/GronmoSMK08">
+		<author>Roy Grønmo</author>
+		<author>Fredrik Sørensen</author>
+		<author>Birger Møller-Pedersen</author>
+		<author>Stein Krogdahl</author>
+		<title>Semantics-Based Weaving of UML Sequence Diagrams.</title>
+		<pages>122-136</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_9</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#GronmoSMK08</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/HemelKV08">
+		<author>Zef Hemel</author>
+		<author>Lennart C. L. Kats</author>
+		<author>Eelco Visser</author>
+		<title>Code Generation by Model Transformation.</title>
+		<pages>183-198</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_13</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#HemelKV08</url>
+	</inproceedings>
+	<inproceedings mdate="2008-08-14" key="conf/icmt/Wagelaar08">
+		<author>Dennis Wagelaar</author>
+		<title>Composition Techniques for Rule-Based Model Transformation Languages.</title>
+		<pages>152-167</pages>
+		<year>2008</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-540-69927-9_11</ee>
+		<crossref>conf/icmt/2008</crossref>
+		<url>db/conf/icmt/icmt2008.html#Wagelaar08</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/CunhaFMPS12">
+		<author>Jácome Cunha</author>
+		<author>João Paulo Fernandes</author>
+		<author>Jorge Mendes</author>
+		<author>Hugo Pacheco</author>
+		<author>João Saraiva</author>
+		<title>Bidirectional Transformation of Model-Driven Spreadsheets.</title>
+		<pages>105-120</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_7</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#CunhaFMPS12</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/BehrensP10">
+		<author>Marion Behrens</author>
+		<author>Gregory M. Provan</author>
+		<title>Temporal Model-Based Diagnostics Generation for HVAC Control Systems.</title>
+		<pages>31-44</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_3</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#BehrensP10</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/AmstelBKP11">
+		<author>Marcel van Amstel</author>
+		<author>Steven Bosems</author>
+		<author>Ivan Kurtev</author>
+		<author>Luís Ferreira Pires</author>
+		<title>Performance in Model Transformations: Experiments with ATL and QVT.</title>
+		<pages>198-212</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_14</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#AmstelBKP11</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/SenBM09">
+		<author>Sagar Sen</author>
+		<author>Benoit Baudry</author>
+		<author>Jean-Marie Mottu</author>
+		<title>Automatic Model Generation Strategies for Model Transformation Testing.</title>
+		<pages>148-164</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_11</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#SenBM09</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/HillairetBL09">
+		<author>Guillaume Hillairet</author>
+		<author>Frédéric Bertrand</author>
+		<author>Jean-Yves Lafaye</author>
+		<title>Rewriting Queries by Means of Model Transformations from SPARQL to OQL and Vice-Versa.</title>
+		<pages>116-131</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_9</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#HillairetBL09</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/VoigtH10">
+		<author>Konrad Voigt</author>
+		<author>Thomas Heinze</author>
+		<title>Metamodel Matching Based on Planar Graph Edit Distance.</title>
+		<pages>245-259</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_17</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#VoigtH10</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/CicchettiRP09">
+		<author>Antonio Cicchetti</author>
+		<author>Davide Di Ruscio</author>
+		<author>Alfonso Pierantonio</author>
+		<title>Managing Dependent Changes in Coupled Evolution.</title>
+		<pages>35-51</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_4</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#CicchettiRP09</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/WimmerKKRSS10">
+		<author>Manuel Wimmer</author>
+		<author>Gerti Kappel</author>
+		<author>Angelika Kusel</author>
+		<author>Werner Retschitzegger</author>
+		<author>Johannes Schönböck</author>
+		<author>Wieland Schwinger</author>
+		<title>Surviving the Heterogeneity Jungle with Composite Mapping Operators.</title>
+		<pages>260-275</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_18</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#WimmerKKRSS10</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/WagelaarIRP12">
+		<author>Dennis Wagelaar</author>
+		<author>Ludovico Iovino</author>
+		<author>Davide Di Ruscio</author>
+		<author>Alfonso Pierantonio</author>
+		<title>Translational Semantics of a Co-evolution Specific Language with the EMF Transformation Virtual Machine.</title>
+		<pages>192-207</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_13</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#WagelaarIRP12</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/Stevens09">
+		<author>Perdita Stevens</author>
+		<title>A Simple Game-Theoretic Approach to Checkonly QVT Relations.</title>
+		<pages>165-180</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_12</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#Stevens09</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/SenMTC12">
+		<author>Sagar Sen</author>
+		<author>Jean-Marie Mottu</author>
+		<author>Massimo Tisi</author>
+		<author>Jordi Cabot</author>
+		<title>Using Models of Partial Knowledge to Test Model Transformations.</title>
+		<pages>24-39</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_2</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#SenMTC12</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/DemuthLE12">
+		<author>Andreas Demuth</author>
+		<author>Roberto E. Lopez-Herrejon</author>
+		<author>Alexander Egyed</author>
+		<title>Constraint-Driven Modeling through Transformation.</title>
+		<pages>248-263</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_17</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#DemuthLE12</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/Pierce09">
+		<author>Benjamin C. Pierce</author>
+		<title>Foundations for Bidirectional Programming.</title>
+		<pages>1-3</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_1</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#Pierce09</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/Trancon-y-WidemannL12">
+		<author>Baltasar Trancón-y-Widemann</author>
+		<author>Markus Lepper</author>
+		<title>Paisley: Pattern Matching à la Carte.</title>
+		<pages>240-247</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_16</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#Trancon-y-WidemannL12</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/HeidenreichKA10">
+		<author>Florian Heidenreich</author>
+		<author>Jan Kopcsek</author>
+		<author>Uwe Aßmann</author>
+		<title>Safe Composition of Transformations.</title>
+		<pages>108-122</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_8</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#HeidenreichKA10</url>
+	</inproceedings>
+	<inproceedings mdate="2011-07-05" key="conf/icmt/SasanoHHIKN11">
+		<author>Isao Sasano</author>
+		<author>Zhenjiang Hu</author>
+		<author>Soichiro Hidaka</author>
+		<author>Kazuhiro Inaba</author>
+		<author>Hiroyuki Kato</author>
+		<author>Keisuke Nakano</author>
+		<title>Toward Bidirectionalization of ATL with GRoundTram.</title>
+		<pages>138-151</pages>
+		<year>2011</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-21732-6_10</ee>
+		<crossref>conf/icmt/2011</crossref>
+		<url>db/conf/icmt/icmt2011.html#SasanoHHIKN11</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/CuadradoJMB09">
+		<author>Jesús Sánchez Cuadrado</author>
+		<author>Frédéric Jouault</author>
+		<author>Jesús García Molina</author>
+		<author>Jean Bézivin</author>
+		<title>Experiments with a High-Level Navigation Language.</title>
+		<pages>229-238</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_16</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#CuadradoJMB09</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/AmstelBS12">
+		<author>Marcel van Amstel</author>
+		<author>Mark G. J. van den Brand</author>
+		<author>Alexander Serebrenik</author>
+		<title>Traceability Visualization in Model Transformations with TraceVis.</title>
+		<pages>152-159</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_10</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#AmstelBS12</url>
+	</inproceedings>
+	<inproceedings mdate="2012-05-29" key="conf/icmt/AtkinsonGT12">
+		<author>Colin Atkinson</author>
+		<author>Ralph Gerbig</author>
+		<author>Christian Tunjic</author>
+		<title>Towards Multi-level Aware Model Transformations.</title>
+		<pages>208-223</pages>
+		<year>2012</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-30476-7_14</ee>
+		<crossref>conf/icmt/2012</crossref>
+		<url>db/conf/icmt/icmt2012.html#AtkinsonGT12</url>
+	</inproceedings>
+	<inproceedings mdate="2009-08-21" key="conf/icmt/GuerraLO09">
+		<author>Esther Guerra</author>
+		<author>Juan de Lara</author>
+		<author>Fernando Orejas</author>
+		<title>Pattern-Based Model-to-Model Transformation: Handling Attribute Conditions.</title>
+		<pages>83-99</pages>
+		<year>2009</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-02408-5_7</ee>
+		<crossref>conf/icmt/2009</crossref>
+		<url>db/conf/icmt/icmt2009.html#GuerraLO09</url>
+	</inproceedings>
+	<inproceedings mdate="2010-07-05" key="conf/icmt/DiskinXC10">
+		<author>Zinovy Diskin</author>
+		<author>Yingfei Xiong</author>
+		<author>Krzysztof Czarnecki</author>
+		<title>From State- to Delta-Based Bidirectional Model Transformations.</title>
+		<pages>61-76</pages>
+		<year>2010</year>
+		<booktitle>ICMT</booktitle>
+		<ee>http://dx.doi.org/10.1007/978-3-642-13688-7_5</ee>
+		<crossref>conf/icmt/2010</crossref>
+		<url>db/conf/icmt/icmt2010.html#DiskinXC10</url>
+	</inproceedings>
+</dblp>
