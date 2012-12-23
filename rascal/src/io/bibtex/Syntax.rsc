@@ -16,10 +16,10 @@ lexical BibValue
 	| [a-zA-Z0-9]+ !>> [a-zA-Z0-9]
 	;
 
-lexical BibValueQ = [\"] BQElement* [\"] ;
+lexical BibValueQ = [\"] BQElement* es [\"] ;
 lexical BQElement = ![\"\\{}] | [\\] [\"\'`&$%a-zA-Z] | BibValueC;
 
-lexical BibValueC = [{] BCElement* [}];
+lexical BibValueC = [{] BCElement* es [}];
 lexical BCElement = BibValueC | ![{}];
 
 start syntax BibLibrary = OneBibEntry+ es;
