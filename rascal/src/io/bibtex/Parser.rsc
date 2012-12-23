@@ -55,11 +55,6 @@ BibString normalise(list[BibString] bs)
 }
 
 
-public void main()
-{
-	iprintln(loc2bib(|home:///workspace/bibtex/icse2010.bib|)[0]);
-	//loc2bib(|home:///workspace/zaytsev.bib|);
-} 
 
 // TODO will be useful later for checking unparser completeness
 public void do()

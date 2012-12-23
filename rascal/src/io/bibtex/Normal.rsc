@@ -11,12 +11,8 @@ import IO;
 list[str] dontcap = ["a","an","and","as","at","but","by","for","from","in","into","nor","of","on","or","over",
 "per","the","to","upon","vs.","vs","with"];
 
-public void main()
-{
-	println(bib2str([normalise(e) | e := loc2bib(|home:///workspace/bibtex/icse2010.bib|)[0]]));
-} 
 
-BibEntry normalise(BibEntry e) = runall(e,[locVSaddr,capTitle,doiVSurl]);
+BibEntry normalise(BibEntry e) = runall(e,[locVSaddr,capTitle,doiVSurl,normPages]);
 
 // The idea is that "address" usually refers to the publisher, while "location" refers to the event.
 // Since some BibTeX processors do not accept both, location is preferred here.
@@ -59,6 +55,46 @@ BibEntry doiVSurl(BibEntry e)
 	{
 		println("[x] Removed excessive URL field.");
 		e.attrs -= ("url" : e.attrs["url"]);
+	}
+	return e;
+}
+
+// The properties pages and numpages must be synchronised
+BibEntry normPages(BibEntry e)
+{
+	if ("pages" notin e.attrs)
+	{
+		println("[!] Cannot fix: no information about pages.");
+		return e;
+	}
+	int i1,i2;
+	<i1,i2> = gimmeRange(e,"pages");
+	if (i1+i2 == 0)
+	{
+		println("[!] Cannot understand \"<gimmeStr(e,"pages")>\" pages.");
+		return e;
+	}
+	if ("numpages" notin e.attrs)
+	{
+		println("[x] Added numpages based on pages.");
+		e.attrs += ("numpages":bracketed(raw("<i2-i1+1>")));
+		return e;
+	}
+	if (i2-i1+1 != gimmeInt(e,"numpages"))
+	{
+		println("[x] Fixed wrong numpages based on pages.");
+		e.attrs = e.attrs
+				- ("numpages":e.attrs["numpages"])
+				+ ("numpages":bracketed(raw("<i2-i1+1>")));
+		return e;
+	}
+	if ("<i1>--<i2>" != gimmeStr(e,"pages"))
+	{
+		println("[x] Fixed slightly deviant format of pages.");
+		e.attrs = e.attrs
+				- ("pages":e.attrs["pages"])
+				+ ("pages":bracketed(raw("<i1>--<i2>")));
+		return e;
 	}
 	return e;
 }
