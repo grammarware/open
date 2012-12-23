@@ -10,7 +10,7 @@ alias BibLib = list[BibEntry];
 alias BibEntry = tuple[str kind, str name, map[str,str] attrs];
 
 public BibLib loc2bib(loc l) = str2bib(readFile(l));
-BibLib str2bib(str s) = library2list(parse(#BibLibrary,trim(replaceAll(s,"\uC2A0"," "))));
+BibLib str2bib(str s) = library2list(parse(#BibLibrary,trim(s)));
 
 BibLib library2list(BibLibrary b) = [mapEntry(e) | OneBibEntry e <- b.es];
 
