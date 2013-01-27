@@ -41,17 +41,20 @@ for y in years.keys():
 	extyears[y] = years[y][:]
 
 cw = open('rdf/collabWith.txt','r')
+net = open('rdf/network.unsorted','w')
 tmplines = cw.readlines(buf)
 while tmplines:
 	for line in tmplines:
 		x,r,y = line.strip().split('"')[1:4]
 		if r == ' collaboratedWith ':
 			for yr in years.keys():
+				net.write('%s\n' % y)
 				if x in years[yr]:
 					if y not in extyears[yr]:
 						extyears[yr].append(y)
 	tmplines = cw.readlines(buf)
 cw.close()
+net.close()
 
 for y in sorted(years.keys()):
 	print y,'   ',len(extyears[y])

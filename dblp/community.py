@@ -24,17 +24,25 @@ while tmplines:
 	tmplines = pa.readlines(buf)
 pa.close()
 
+total = []
 years = {}
 for n in names.keys():
 	y = n.replace('/','').replace('-','')
 	for x in range(ord('a'),ord('z')+1):
 		y = y.replace(chr(x),'')
-	y = y[0:4]
+	y = int(y[0:4])
 	if y not in years:
 		years[y] = []
 	for name in names[n]:
 		if name not in years[y]:
 			years[y].append(name)
+		if name not in total:
+			total.append(name)
 
 for y in sorted(years.keys()):
 	print y,'   ',len(years[y])
+
+comm = open('rdf/community.1','w')
+for name in sorted(total):
+	comm.write('%s\n' % name)
+comm.close()
