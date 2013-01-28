@@ -48,9 +48,9 @@ while tmplines:
 		x,r,y = line.strip().split('"')[1:4]
 		if r == ' collaboratedWith ':
 			for yr in years.keys():
-				net.write('%s\n' % y)
 				if x in years[yr]:
 					if y not in extyears[yr]:
+						net.write('%s\n' % y)
 						extyears[yr].append(y)
 	tmplines = cw.readlines(buf)
 cw.close()

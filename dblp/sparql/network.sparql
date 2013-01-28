@@ -1,0 +1,13 @@
+PREFIX conf: <http://dblp.l3s.de/d2r/resource/conferences/>
+SELECT ?Year (COUNT(DISTINCT ?Coauthor) as ?Network) WHERE
+{
+  ?Paper dc:creator ?Author .
+  ?Paper dcterms:partOf ?Event .
+  ?Event swrc:series conf:models .
+  ?Event dcterms:issued ?Year .
+
+  ?PaperX dc:creator ?Author .
+  FILTER ( ?PaperX != ?Paper ) 
+  ?PaperX dc:creator ?Coauthor .
+}
+GROUP BY ?Year

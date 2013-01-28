@@ -1,0 +1,18 @@
+PREFIX conf: <http://dblp.l3s.de/d2r/resource/conferences/>
+SELECT ?Year (COUNT(DISTINCT ?Author) as ?Community) WHERE
+{
+ {
+  ?Paper dc:creator ?Author .
+  ?Paper dcterms:partOf ?Event .
+  ?Event swrc:series conf:models .
+  ?Event dcterms:issued ?Year .
+ }
+ UNION
+ {
+  ?Paper dc:creator ?Author .
+  ?Paper dcterms:partOf ?Event .
+  ?Event swrc:series conf:uml .
+  ?Event dcterms:issued ?Year .
+ }
+}
+GROUP BY ?Year
