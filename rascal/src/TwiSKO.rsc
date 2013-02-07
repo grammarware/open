@@ -10,10 +10,17 @@ import IO; // println
 import String; //startsWith, endsWith
 import List; //size, reverse
 
+public void main(list[str] as)
+{
+	go();
+}
+
 public void go()
 {
 	loc w = |home:///workspace/open/data/last1000.json|;
 	loc r = |home:///workspace/open/data/last1000.xml|;
+	w = |cwd:///grammarware.json|;
+	r = |cwd:///grammarware.xml|;
 	//loc w = |home:///workspace/open/data/one.json|;
 	list[JSO] tweets = gimmeArray(loc2jso(w));
 	list[str] res = reverse([s | str s <- [processTweet(gimmeMap(tweet)) | JSO tweet <- tweets], s!=""]);
@@ -29,7 +36,7 @@ str processTweet(map[str,JSO] t)
 		return "";
 	return "
 	'\<entry\>
-	'	\<ts d=\"<t2day(t)>\" m=\"<t2month(t)>\" y=\"<t2year(t)>\"/\>
+	'	\<ts d=\"<t2day(t)>\" m=\"<t2month(t)>\" y=\"<t2year(t)>\" time=\"<t2time(t)>\"/\>
 	'	\<text\><txt>\</text\>
 	'	\<twi\><t2id(t)>\</twi\>
 	'\</entry\>";
@@ -38,5 +45,6 @@ str processTweet(map[str,JSO] t)
 str t2day(map[str,JSO] t) = gimmeDay(gimmeString(t["created_at"]));
 str t2month(map[str,JSO] t) = gimmeMonth(gimmeString(t["created_at"]));
 str t2year(map[str,JSO] t) = gimmeYear(gimmeString(t["created_at"]));
+str t2time(map[str,JSO] t) = gimmeTime(gimmeString(t["created_at"]));
 
 str t2id(map[str,JSO] t) = gimmeString(t["id_str"]);

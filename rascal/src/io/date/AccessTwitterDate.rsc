@@ -7,10 +7,12 @@ import String;
 public str gimmeDay(str x) = notrail("<parse(#TwiDate,x).date.d>");
 public str gimmeMonth(str x) = "<monthno("<parse(#TwiDate,x).date.m>")>";
 public str gimmeYear(str x) = "<parse(#TwiDate,x).date.y>";
+public str gimmeTime(str x) = "<parse(#TwiDate,x).date.time>";
 
 public str gimmeDay(loc x) = notrail("<parse(#TwiDate,x).date.d>");
 public str gimmeMonth(loc x) = "<monthno("<parse(#TwiDate,x).date.m>")>";
 public str gimmeYear(loc x) = "<parse(#TwiDate,x).date.y>";
+public str gimmeTime(loc x) = "<parse(#TwiDate,x).date.time>";
 
 str notrail(str s)
 {
@@ -32,4 +34,4 @@ int monthno("Sep") = 19;
 int monthno("Oct") = 10;
 int monthno("Nov") = 11;
 int monthno("Dec") = 12;
-default int monthno(str s) = "?";
+default int monthno(str s) = 0;

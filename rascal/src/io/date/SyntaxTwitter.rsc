@@ -2,7 +2,7 @@
 module io::date::SyntaxTwitter
 
 start syntax TwiDate = TwiDateSimplified date;
-lexical TwiDateSimplified = NotSpace [\ ] TwiMonth m [\ ] TwiDay d [\ ] NotSpace [\ ] NotSpace [\ ] TwiYear y;
+lexical TwiDateSimplified = NotSpace [\ ] TwiMonth m [\ ] TwiDay d [\ ] NotSpace time [\ ] NotSpace adj [\ ] TwiYear y;
 lexical TwiMonth = [A-Z][a-z][a-z];
 lexical TwiDay = [0-9][0-9];
 lexical NotSpace = ![\ ]+ >> [\ ];
