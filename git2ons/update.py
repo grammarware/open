@@ -102,6 +102,7 @@ if __name__ == '__main__':
 	f = open('2013.xml','r')
 	blob = f.read()
 	f.close()
+	ALLCX = 0
 	for r in repos.keys():
 		onlines = map(lambda x:x.strip(),blob.split('\n'))
 		# print 'cd %s/ && git log > tmp.log' % r
@@ -138,45 +139,8 @@ if __name__ == '__main__':
 					cx += 1
 			blob += line+'\n' 
 		print 'Done with %s, %i entries weaved in.' % (repos[r], cx)
+		ALLCX += cx
 	g = open('new.xml','w')
 	g.write(blob)
 	g.close()
-	sys.exit(1)
-	if len(sys.argv) < 5:
-		print 'Migrate what?'
-		sys.exit(-1)
-	commits = []
-	f = open(sys.argv[2],'r')
-	blob = f.read()
-	cf = open(sys.argv[1],'r')
-	for l in cf.readlines():
-		cmt = eval(l)
-		if blob.find(cmt[0]) > -1:
-			break
-		commits.append(cmt)
-		# print 'Yes to',cmt
-	cf.close()
-	cx = 0
-	g = open(sys.argv[3],'w')
-	for l in blob.split('\n'):
-		line = l.strip()
-		# <ts d="3" m="1" y="2012"/>
-		if line.startswith('<ts d="'):
-			d = line.split('"')[1]
-			m = line.split('"')[3]
-			if len(line.split('"'))>5:
-				y = line.split('"')[5]
-			else:
-				y = '2012'
-			while len(commits)>0 and datelower(d,m,y,commits[-1][2],commits[-1][1],commits[-1][3]):
-				g.write(cmt2str1(commits.pop()))
-				cx += 1
-		elif line=='</web:notebook>':
-			while len(commits)>0:
-				g.write(cmt2str2(commits.pop()))
-				cx += 1
-		g.write( line+'\n' )
-	f.close()
-	g.close()
-	print 'Done with %s, %i entries weaved in.' % (sys.argv[4], cx)
-	sys.exit(0)
+	print 'Done! Total of %i new entries added.' % ALLCX
