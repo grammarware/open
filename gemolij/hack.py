@@ -15,7 +15,7 @@ def str2struct(s):
 		else:
 			ralts.append(a)
 	if len(ralts)>1:
-		return [s.strip(),'','','',ralts]
+		return [s.strip(),'','','',ralts,s]
 	ps = alts[0].strip().split(' ')
 	# Keizersgracht 18-18A
 	# Amstelveld 1-3, Kerkstraat 330
@@ -25,7 +25,7 @@ def str2struct(s):
 	last = []
 	middle = False
 	for i in range(0,len(ps)):
-		if not ps[i].replace('.','').replace('(','').replace(')','').isalpha():
+		if not ps[i].replace('.','').replace('(','').replace(')','').replace('.','').replace('\'','').isalpha():
 			middle = True
 		if middle:
 			last.append(ps[i])
@@ -61,7 +61,7 @@ def str2struct(s):
 					break
 			toev = nr1[i:]
 			nr1 = nr1[:i]
-	return [street,nr1,nr2,toev,[]]
+	return [street,nr1,nr2,toev,[],s]
 
 # rec = fetch(a,mipdb)
 def fetch(name,db):
@@ -79,6 +79,7 @@ def fetch(name,db):
 	for i in range(0,len(f)):
 		if f[i]=='':
 			f[i] = '\\N'
+	# f.append(a[5])
 	return f
 
 cx = 27
@@ -143,7 +144,7 @@ for x in f.readlines():
 		nr1 = d[9] if d[9]!='\\N' else ''
 		nr2 = d[10] if d[10]!='\\N' else ''
 		toe = d[11] if d[11]!='\\N' else ''
-		ments.append([street,nr1,nr2,toe,[]])
+		ments.append([street,nr1,nr2,toe,[],''])
 		s = '%s %s' % (d[7],d[9])
 		if d[11]!='\\N':
 			s += d[11]
@@ -192,6 +193,7 @@ for e in sents:
 	for a in alts:
 		g.write('\t%s\n' % a)
 	for a in alts:
+		a[5] = ''
 		if a in ments:
 			match = True
 			break
@@ -217,61 +219,15 @@ for e in sents:
 				rec.append(e[3] if e[3]!='' else '\\N')
 			else:
 				rec.append('\\N')
+	rec.append(e[5])
 	kewl.append(rec)
 g.close()
 
-# for e in sles:
-# 	alts = e.split(', ')
-# 	# filter
-# 	ralts = []
-# 	for a in alts:
-# 		if a.strip().replace('-','').isdigit():
-# 			continue
-# 		if a.find(' ')<0:
-# 			continue
-# 		ralts.append(a)
-# 	match = False
-# 	for a in ralts:
-# 		if a in mipes:
-# 			match = True
-# 	if match:
-# 		incl += 1
-# 		print 'MATCH:',a,'FOR',e
-# 	else:
-# 		new += 1
-# 		kewl.append(e.strip())
 print incl+new, 'entries processed:', incl, 'already known', new, 'new'
 
 # Generate CSV for the database update
 f = open('newadam.csv','w')
 for e in kewl:
-	# alts = e.split(', ')
-	# if len(alts)==1:
-	# 	street = ' '.join(alts[0].split(' ')[:-1])
-	# 	nr1 = alts[0].split(' ')[-1]
-	# 	if nr1.find('-')<0:
-	# 		nr2 = '\\N'
-	# 	else:
-	# 		nr2 = nr1
-	# 		nr1 = nr1.split('-')[0]
-	# elif alts[1].strip().replace('-','').isdigit():
-	# 	street = ' '.join(alts[0].split(' ')[:-1])
-	# 	nr1 = alts[0].split(' ')[-1]
-	# 	if nr1.find('-')<0:
-	# 		nr2 = alts[1].strip()
-	# 	else:
-	# 		nr2 = nr1+', '+alts[1].strip()
-	# 		nr1 = nr1.split('-')[0]
-	# rec = []
-	# for i in range(0,27):
-	# 	if i == 7:
-	# 		rec.append(street)
-	# 	elif i == 9:
-	# 		rec.append(nr1)
-	# 	elif i == 10:
-	# 		rec.append(nr2)
-	# 	else:
-	# 		rec.append('\\N')
-	# f.write('\t'.join(rec)+'\n')
-	f.write('\t'.join(e)+'\n')
+	# f.write(';;;'.join(e))
+	f.write('\t'.join(e))
 f.close()
